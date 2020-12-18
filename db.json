@@ -1,0 +1,537 @@
+{
+  "Job": {
+    "BUY_ONE_UNIT_OF_TOKEN/0x6b175474e89094c44da98b954eedeac495271d0f": {
+      "id": "BUY_ONE_UNIT_OF_TOKEN/0x6b175474e89094c44da98b954eedeac495271d0f",
+      "name": "BUY_ONE_UNIT_OF_TOKEN",
+      "status": "DORMANT",
+      "tokenAddress": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "tokenSymbol": "DAI"
+    },
+    "BUY_ONE_UNIT_OF_TOKEN/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "id": "BUY_ONE_UNIT_OF_TOKEN/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "BUY_ONE_UNIT_OF_TOKEN",
+      "status": "DORMANT",
+      "tokenAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "tokenSymbol": "ETH"
+    },
+    "BUY_ONE_UNIT_OF_TOKEN/0xdac17f958d2ee523a2206206994597c13d831ec7": {
+      "id": "BUY_ONE_UNIT_OF_TOKEN/0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "name": "BUY_ONE_UNIT_OF_TOKEN",
+      "status": "DORMANT",
+      "tokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "tokenSymbol": "USDT"
+    },
+    "BUY_ONE_UNIT_OF_TOKEN/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+      "id": "BUY_ONE_UNIT_OF_TOKEN/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "name": "BUY_ONE_UNIT_OF_TOKEN",
+      "status": "DORMANT",
+      "tokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "tokenSymbol": "USDC"
+    },
+    "BUY_ONE_UNIT_OF_TOKEN/0x0000000000085d4780b73119b644ae5ecd22b376": {
+      "id": "BUY_ONE_UNIT_OF_TOKEN/0x0000000000085d4780b73119b644ae5ecd22b376",
+      "name": "BUY_ONE_UNIT_OF_TOKEN",
+      "status": "DORMANT",
+      "tokenAddress": "0x0000000000085d4780b73119b644ae5ecd22b376",
+      "tokenSymbol": "TUSD"
+    }
+  },
+  "TradePair": {
+    "USDC-DAI": {
+      "id": "USDC-DAI",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "DAI",
+      "priceInFromToken": "1.0028643125977457209",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x6b175474e89094c44da98b954eedeac495271d0f"
+    },
+    "USDC-ETH": {
+      "id": "USDC-ETH",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "ETH",
+      "priceInFromToken": "658.85199515637409115",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    "USDC-USDT": {
+      "id": "USDC-USDT",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "USDT",
+      "priceInFromToken": "1.0003501275458915747",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    },
+    "USDC-WBTC": {
+      "id": "USDC-WBTC",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "WBTC",
+      "priceInFromToken": "21507.06436420722135",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+    },
+    "USDC-YFI": {
+      "id": "USDC-YFI",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "YFI",
+      "priceInFromToken": "27169.100705217999629",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e"
+    },
+    "USDC-LINK": {
+      "id": "USDC-LINK",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "LINK",
+      "priceInFromToken": "13.283469283717708252",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x514910771af9ca656af840dff83e8264ecf986ca"
+    },
+    "USDC-TUSD": {
+      "id": "USDC-TUSD",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "TUSD",
+      "priceInFromToken": "1.0001",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x0000000000085d4780b73119b644ae5ecd22b376"
+    },
+    "USDC-WETH": {
+      "id": "USDC-WETH",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "WETH",
+      "priceInFromToken": "658.85199515637409115",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    },
+    "USDT-DAI": {
+      "id": "USDT-DAI",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "DAI",
+      "priceInFromToken": "1.0028643125977457209",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x6b175474e89094c44da98b954eedeac495271d0f"
+    },
+    "USDT-ETH": {
+      "id": "USDT-ETH",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "ETH",
+      "priceInFromToken": "641.94177454701993644",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    "USDT-USDC": {
+      "id": "USDT-USDC",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "USDC",
+      "priceInFromToken": "1.0003501275458915747",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    },
+    "USDT-sUSD": {
+      "id": "USDT-sUSD",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "sUSD",
+      "priceInFromToken": "1.0158862830268091043",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x57ab1ec28d129707052df4df418d58a2d46d5f51"
+    },
+    "USDT-WBTC": {
+      "id": "USDT-WBTC",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "WBTC",
+      "priceInFromToken": "22300.712882502603348",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+    },
+    "USDT-YFI": {
+      "id": "USDT-YFI",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "YFI",
+      "priceInFromToken": "27245.223908437984107",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e"
+    },
+    "USDT-TUSD": {
+      "id": "USDT-TUSD",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "TUSD",
+      "priceInFromToken": "1.0001000100010001",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x0000000000085d4780b73119b644ae5ecd22b376"
+    },
+    "USDC-sUSD": {
+      "id": "USDC-sUSD",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "sUSD",
+      "priceInFromToken": "1.0158862830268091043",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x57ab1ec28d129707052df4df418d58a2d46d5f51"
+    },
+    "USDC-SNX": {
+      "id": "USDC-SNX",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "SNX",
+      "priceInFromToken": "5.2092432586228047248",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
+    },
+    "USDC-REN": {
+      "id": "USDC-REN",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "REN",
+      "priceInFromToken": "0.29923698249986562469",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x408e41876cccdc0f92210600ef50372656052a38"
+    },
+    "USDC-BNT": {
+      "id": "USDC-BNT",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "BNT",
+      "priceInFromToken": "1.6094861980550977614",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c"
+    },
+    "USDC-AMPL": {
+      "id": "USDC-AMPL",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "AMPL",
+      "priceInFromToken": "1.0104730635766508021",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xd46ba6d942050d489dbd938a2c909a5d5039a161"
+    },
+    "USDC-CRV": {
+      "id": "USDC-CRV",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "CRV",
+      "priceInFromToken": "0.64826016951240803929",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xd533a949740bb3306d119cc777fa900ba034cd52"
+    },
+    "USDC-UNI": {
+      "id": "USDC-UNI",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "UNI",
+      "priceInFromToken": "3.5865548587082980671",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+    },
+    "USDC-SUSHI": {
+      "id": "USDC-SUSHI",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "SUSHI",
+      "priceInFromToken": "2.8020420989091153474",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
+    },
+    "USDC-CREAM": {
+      "id": "USDC-CREAM",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "CREAM",
+      "priceInFromToken": "67.640691839886807747",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x2ba592f78db6436527729929aaf6c908497cb200"
+    },
+    "USDC-UMA": {
+      "id": "USDC-UMA",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "UMA",
+      "priceInFromToken": "8.996043415319281855",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828"
+    },
+    "USDC-AAVE": {
+      "id": "USDC-AAVE",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "AAVE",
+      "priceInFromToken": "84.979962425747431105",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+    },
+    "USDC-LEND": {
+      "id": "USDC-LEND",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "LEND",
+      "priceInFromToken": "0.83442230838062252232",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03"
+    },
+    "USDC-MKR": {
+      "id": "USDC-MKR",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "MKR",
+      "priceInFromToken": "533.44996217262035676",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+    },
+    "USDC-wNXM": {
+      "id": "USDC-wNXM",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "wNXM",
+      "priceInFromToken": "17.832652315543351992",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x0d438f3b5175bebc262bf23753c1e53d03432bde"
+    },
+    "USDC-ESD": {
+      "id": "USDC-ESD",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "ESD",
+      "priceInFromToken": "1.3806394162343479075",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x36f3fd68e7325a35eb768f1aedaae9ea0689d723"
+    },
+    "USDT-UNI": {
+      "id": "USDT-UNI",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "UNI",
+      "priceInFromToken": "3.5447552911091284103",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+    },
+    "USDT-CREAM": {
+      "id": "USDT-CREAM",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "CREAM",
+      "priceInFromToken": "65.43748160851799566",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x2ba592f78db6436527729929aaf6c908497cb200"
+    },
+    "USDT-BNT": {
+      "id": "USDT-BNT",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "BNT",
+      "priceInFromToken": "1.6118724510099461197",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c"
+    },
+    "USDC-PAX": {
+      "id": "USDC-PAX",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "PAX",
+      "priceInFromToken": "1.0550376281778551607",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x8e870d67f660d95d5be530380d0ec0bd388289e1"
+    },
+    "USDT-PICKLE": {
+      "id": "USDT-PICKLE",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "PICKLE",
+      "priceInFromToken": "14.700090587155023527",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x429881672b9ae42b8eba0e26cd9c73711b891ca5"
+    },
+    "USDT-SNX": {
+      "id": "USDT-SNX",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "SNX",
+      "priceInFromToken": "5.2110509443448715738",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
+    },
+    "USDT-wNXM": {
+      "id": "USDT-wNXM",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "wNXM",
+      "priceInFromToken": "17.533302824118695206",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x0d438f3b5175bebc262bf23753c1e53d03432bde"
+    },
+    "USDT-SUSHI": {
+      "id": "USDT-SUSHI",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "SUSHI",
+      "priceInFromToken": "2.9126186083286546111",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
+    },
+    "USDT-UMA": {
+      "id": "USDT-UMA",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "UMA",
+      "priceInFromToken": "8.9991636573715180327",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828"
+    },
+    "USDT-AAVE": {
+      "id": "USDT-AAVE",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "AAVE",
+      "priceInFromToken": "84.1827803153758843",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+    },
+    "USDC-PICKLE": {
+      "id": "USDC-PICKLE",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "PICKLE",
+      "priceInFromToken": "14.357061104851088199",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x429881672b9ae42b8eba0e26cd9c73711b891ca5"
+    },
+    "USDT-renBTC": {
+      "id": "USDT-renBTC",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "renBTC",
+      "priceInFromToken": "21390.317143908219049",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d"
+    },
+    "USDT-BUSD": {
+      "id": "USDT-BUSD",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "BUSD",
+      "priceInFromToken": "1.0080920272929330536",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
+    },
+    "USDT-LEND": {
+      "id": "USDT-LEND",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "LEND",
+      "priceInFromToken": "0.85435369058677163908",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03"
+    },
+    "USDC-COMP": {
+      "id": "USDC-COMP",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "COMP",
+      "priceInFromToken": "154.34570000000000017",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888"
+    },
+    "USDT-PAX": {
+      "id": "USDT-PAX",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "PAX",
+      "priceInFromToken": "1.0001000100010001",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x8e870d67f660d95d5be530380d0ec0bd388289e1"
+    },
+    "USDT-MKR": {
+      "id": "USDT-MKR",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "MKR",
+      "priceInFromToken": "548.35187888966738671",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+    },
+    "USDT-COMP": {
+      "id": "USDT-COMP",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "COMP",
+      "priceInFromToken": "159.43276159206184231",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888"
+    },
+    "USDT-COVER": {
+      "id": "USDT-COVER",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "COVER",
+      "priceInFromToken": "1145.5545357762120363",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x5d8d9f5b96f4438195be9b99eee6118ed4304286"
+    },
+    "USDC-BAL": {
+      "id": "USDC-BAL",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "BAL",
+      "priceInFromToken": "13.345823076634769644",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xba100000625a3754423978a60c9317c58a424e3d"
+    },
+    "USDC-STAKE": {
+      "id": "USDC-STAKE",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "STAKE",
+      "priceInFromToken": "11.875664423534194382",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x0ae055097c6d159879521c384f1d2123d1f195e6"
+    },
+    "USDC-DPI": {
+      "id": "USDC-DPI",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "DPI",
+      "priceInFromToken": "115.29586645669192262",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b"
+    },
+    "USDT-KNC": {
+      "id": "USDT-KNC",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "KNC",
+      "priceInFromToken": "0.96307018427941299907",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200"
+    },
+    "USDT-STAKE": {
+      "id": "USDT-STAKE",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "STAKE",
+      "priceInFromToken": "11.893249758544492062",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x0ae055097c6d159879521c384f1d2123d1f195e6"
+    },
+    "USDT-BAL": {
+      "id": "USDT-BAL",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "BAL",
+      "priceInFromToken": "13.607306245042168175",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xba100000625a3754423978a60c9317c58a424e3d"
+    },
+    "USDC-renBTC": {
+      "id": "USDC-renBTC",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "renBTC",
+      "priceInFromToken": "22705.704464857354323",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d"
+    },
+    "USDC-FARM": {
+      "id": "USDC-FARM",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "FARM",
+      "priceInFromToken": "117.50006817408674696",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0xa0246c9032bc3a600820415ae600c6388619a14d"
+    },
+    "USDT-CRV": {
+      "id": "USDT-CRV",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "CRV",
+      "priceInFromToken": "0.68180046605257874774",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xd533a949740bb3306d119cc777fa900ba034cd52"
+    },
+    "USDT-AMPL": {
+      "id": "USDT-AMPL",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "AMPL",
+      "priceInFromToken": "1.0108268504650847996",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xd46ba6d942050d489dbd938a2c909a5d5039a161"
+    },
+    "USDT-LINK": {
+      "id": "USDT-LINK",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "LINK",
+      "priceInFromToken": "13.145297147044299244",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0x514910771af9ca656af840dff83e8264ecf986ca"
+    },
+    "USDT-WETH": {
+      "id": "USDT-WETH",
+      "fromTokenSymbol": "USDT",
+      "toTokenSymbol": "WETH",
+      "priceInFromToken": "641.94177454701993644",
+      "fromTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "toTokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    },
+    "USDC-BUSD": {
+      "id": "USDC-BUSD",
+      "fromTokenSymbol": "USDC",
+      "toTokenSymbol": "BUSD",
+      "priceInFromToken": "1.0120030308311385562",
+      "fromTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "toTokenAddress": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
+    }
+  }
+}

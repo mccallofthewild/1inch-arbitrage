@@ -1,0 +1,15 @@
+overwrite: true
+# schema: 'https://api.thegraph.com/subgraphs/name/krboktv/mooniswap'
+schema: 'https://api.thegraph.com/subgraphs/name/1inch-exchange/one-inch-v2'
+documents: null
+generates:
+  src/generated/GqlTypes.ts:
+    plugins:
+      - add:
+          content:
+            - 'export namespace GqlTypes {'
+      - add:
+          placement: 'append'
+          content: '}'
+      - 'typescript'
+      - 'typescript-resolvers'

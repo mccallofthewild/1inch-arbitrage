@@ -1,0 +1,47 @@
+{
+	"name": "1inch-arbitrage",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "tsnd ./src/index.ts ",
+		"test": "graphql-codegen && tsnd index.spec.ts",
+		"codegen": "graphql-codegen --config codegen.yml",
+		"abi-gen": "abi-gen",
+		"swagger": "npx swagger-typescript-api -p https://api.1inch.exchange/v2.0/api-docs/swagger.json -o ./src/generated -n SwaggerTypes.ts",
+		"type-chain": "yarn run typechain --target ethers-v5 --outDir ./src/generated/contracts ./abis/**/*.json",
+		"db-client": "pouchdb-server"
+	},
+	"devDependencies": {
+		"@0x/abi-gen": "^5.4.13",
+		"@graphql-codegen/add": "^2.0.2",
+		"@graphql-codegen/cli": "1.19.4",
+		"@graphql-codegen/introspection": "1.18.1",
+		"@graphql-codegen/typescript": "1.19.0",
+		"@graphql-codegen/typescript-resolvers": "^1.18.0",
+		"@typechain/ethers-v5": "^5.0.0",
+		"@types/lowdb": "^1.0.9",
+		"@types/mathjs": "^6.0.8",
+		"@types/pouchdb": "^6.4.0",
+		"@types/pouchdb-find": "^6.3.6",
+		"pouchdb-server": "^4.2.0",
+		"ts-node-dev": "^1.0.0",
+		"type-fest": "^0.20.2",
+		"typechain": "^4.0.1",
+		"typescript": "^4.1.2"
+	},
+	"dependencies": {
+		"@0x/mesh-graphql-client": "^10.1.0",
+		"bignumber.js": "^9.0.1",
+		"cross-fetch": "^3.0.6",
+		"ethers": "^5.0.24",
+		"eventemitter3": "^4.0.7",
+		"graphql": "^15.4.0",
+		"lowdb": "^1.0.0",
+		"mathjs": "^8.1.0",
+		"pouchdb": "^7.2.2",
+		"pouchdb-find": "^7.2.2",
+		"pouchdb-upsert": "^2.2.0",
+		"ws": "^7.4.1"
+	}
+}

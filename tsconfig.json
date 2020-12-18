@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "dom"],
+    "module": "commonjs",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
+}
